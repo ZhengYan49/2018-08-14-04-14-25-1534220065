@@ -4,18 +4,16 @@ module.exports = function main(a) {
        c= "._. ... ._.\n"+
           "|_| ..| |.|\n"+
           "..| ..| |_|\n");
-       return  c;
     }       
      if(a==256){
        c= "._. ._. ._.\n"+
            "._| |_. |_.\n"+
            "|_. ._| |_|\n");
-       return  c;
     }  
     if(a==7){
        c= "._.\n"+
           "..|\n"+
           "..|\n");
-       return  c;
     } 
+    return c;
 };
