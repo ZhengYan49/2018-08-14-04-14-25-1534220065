@@ -46,21 +46,8 @@ module.exports = function main(str) {
                     t=t9[j];
                     break;
             }
+            console.log(t);
         }
+        console.log("\n");
     }
 
-    var re;
-    if(str==910)
-        re="._. ... ._.\n"+
-            "|_| ..| |.|\n"+
-            "..| ..| |_|\n";
-    if(str==256)
-        re="._. ._. ._.\n"+
-            "._| |_. |_.\n"+
-            "|_. ._| |_|\n";
-    if(str==7)
-        re="._.\n"+
-            "..|\n"+
-            "..|\n";
-    return re;
-};
