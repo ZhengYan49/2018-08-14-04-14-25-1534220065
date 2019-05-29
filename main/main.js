@@ -46,8 +46,8 @@ module.exports = function main(str) {
                     t=t9[j];
                     break;
             }
-            console.log(t);
+            process.stdout.write(t);
         }
-        console.log("\n");
+        process.stdout.write("\n");
     }
 
