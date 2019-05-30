@@ -47,8 +47,15 @@ module.exports = function main(str) {
                     t=t9[j];
                     break;
             }
-            process.stdout.write(t);
+            if(i==0)
+            	te=t;
+			else
+			te=te+t;
         }
-        process.stdout.write("\n");
+        if(j==0)
+			re=te+"\n";
+		else
+			re=re+te+"\n";
     }
-
+    return re;
+}
