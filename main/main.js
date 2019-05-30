@@ -9,6 +9,7 @@ module.exports = function main(str) {
     var t7 = ['._.','..|','..|'];
     var t8 = ['._.','|_|','|_|'];
     var t9 = ['._.','|_|','..|'];
+    var i,j,t;
     for (j = 0; j < 3; j++)
     {
         for (i = 0; i < str.length; i++) 
