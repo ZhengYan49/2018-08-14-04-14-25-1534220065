@@ -50,7 +50,7 @@ module.exports = function main(str) {
             if(i==0)
             	te=t;
 	    else
-		te=te+t;
+		te=te+" "+t;
         }
         if(j==0)
 		re=te+"\n";
